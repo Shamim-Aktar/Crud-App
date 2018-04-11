@@ -1,0 +1,60 @@
+*{
+    padding:0;
+    margin:0;
+}
+h1,p{
+    text-align: center;
+    margin-left: 80px;
+    
+    width: 100%;
+    
+}
+.user-form {    margin-left: 400px;
+    display: inline-block;}
+.user-form .field { 
+ 
+    width: 400px;
+    margin-left: 20%;}
+
+.user-form .field input { display: inline-block;
+    width: 100%;
+    padding:9px; 
+    text-indent: 40px;
+}
+.deleteButton{
+    padding: 4px;
+  
+    display: inline-flex;
+    border: 1px solid;
+    font-weight: bold;
+  
+}
+section{
+    text-align:center;
+    float:right;
+    
+}
+.formErrors{
+    float: right;
+    width: 100%;
+}
+i{
+    position: relative;
+    top: 28px;
+    left: 10px;
+}
+.errorText{
+    background: red;
+    width: 100%;
+    padding: 10px;
+    text-align:left;
+    /*margin:2px 0 2px 20%;*/
+    color:#ffffff;
+    
+
+}
+.fa-warning{
+    float:right;
+    color:red
+}
+
